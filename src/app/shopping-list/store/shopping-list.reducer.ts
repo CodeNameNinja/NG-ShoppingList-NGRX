@@ -15,6 +15,6 @@ export function shoppingListReducer(state = initialState, action:ShoppingListAct
         case ShoppingListActions.REMOVE_INGREDIENT:
             break;
         default: 
-            break;
+            return state;
     }
 }
